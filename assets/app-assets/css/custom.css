@@ -74,6 +74,7 @@
         color: #000;
         border-radius: 0;
         border: 1px solid black;
+        margin-top: 70px;
     }
 
     .dataListOrder .btn-add-new.p-3.mb-4.mr-4.rounded-lg.cursor-pointer.flex.items-center.justify-center.text-lg.font-medium.text-base.text-primary.border.border-solid.border-primary span.ml-2.text-base.text-primary {
@@ -81,4 +82,50 @@
         float: left;
         margin: 0 !important;
         border-radius: 5px;
+    }
+
+    .truck_load_size p {
+        margin: 0px;
+    }
+
+    .colorsData .card-header  , .driversData .card-header{
+        margin-bottom: 1.5rem;
+    }
+
+    .driversData .table-hover-animation tbody tr:hover {
+        transform: translateY(0px);
+        background: rgba(34, 41, 47, 0.075);
+    }
+
+    .ordersData .table_paragraph {
+        min-height: 170px;
+        max-height: 170px;
+    }
+
+    .ordersData section#data-list-view tr {
+        transform: translateY(-4px);     border-bottom: 10px solid #F8F8F8;
+    }
+
+    .ordersData section#data-list-view tr:hover {
+        transform: translateY(0px);
+    }
+
+    .data-list-view-header .add-new-data-sidebar .add-new-data .data-items {     border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+        height: calc(var(--vh, 1vh) * 100 - 16px - 45px - 82px);
+        position: relative;
+        touch-action: auto;
+    }
+
+    .home-link {
+         margin-right: 8px;
+    }
+
+
+    .ordersData button.dt-button.btn-outline-primary {
+        margin-left: 17px;
+        padding: 9px 32px;
+        height: 38px;
+        font-size: 1rem !important;
+        margin-bottom: 1rem !important;
+        border-radius: .25rem;
     }
