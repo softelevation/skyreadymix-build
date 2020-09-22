@@ -6,16 +6,17 @@
     height: auto;
     min-height: 68px;
     max-height: 68px;
+    margin-top: 70px;
 }
 
 
 .color_3 {
-	background-color: yellow;
+	background-color: #c0ecc0;
 }
 
 
 .color_2 {
-	background-color: #c0ecc0;
+	background-color: yellow;
 }
 
 .colorsData button.btn.btn-outline-primary.waves-effect.waves-light {
