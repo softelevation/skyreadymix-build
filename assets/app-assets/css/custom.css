@@ -1,0 +1,84 @@
+.truck_load_size {
+    border: 1px solid black;
+    padding: 1% 2%;
+    margin: 2px;
+    width: 102px;
+    height: auto;
+    min-height: 68px;
+    max-height: 68px;
+}
+
+
+.color_3 {
+	background-color: yellow;
+}
+
+
+.color_2 {
+	background-color: #c0ecc0;
+}
+
+.colorsData button.btn.btn-outline-primary.waves-effect.waves-light {
+    margin-left: 17px;
+    padding: 9px 32px;
+    height: 38px;
+    font-size: 1rem !important;
+    margin-bottom:1rem !important; 
+}
+.colorsData .card .card-title {
+    margin-bottom: 0.5rem;
+}
+.table th {
+    font-size: 1rem;
+}
+.driversData .card-body {
+    flex: 1 1 auto;
+    padding: 0;
+}
+
+.driversData .card-body button.btn.btn-outline-primary.waves-effect.waves-light {
+    margin-left: 17px;
+    padding: 9px 32px;
+    height: 38px;
+    font-size: 1rem !important;
+    margin-bottom:1rem !important; 
+}
+
+.driversData .card .card-title {
+    margin-bottom: 0.5rem;
+    }
+
+    .driversData .table-hover-animation tbody tr:hover {
+        transform: translateY(0px);
+    }
+
+    .driversData .table th, .driversData .table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #F8F8F8;
+    }
+
+    .ordersData section#data-list-view td {
+        transform: translateY(-4px);
+        background: #fff;
+      padding: 5px!important;
+        vertical-align: top;
+    } 
+
+    .ordersData  .btn.btn-outline-primary.color_.truck_load_size.waves-effect.waves-light , .ordersData .btn.btn-outline-primary.color_2.truck_load_size.waves-effect.waves-light , .ordersData  .btn.btn-outline-primary.color_3.truck_load_size.waves-effect.waves-light {
+        width: 102px;
+        min-height: 68px;
+        max-height: 68px;
+        padding: 1% 2%;
+        text-align: left;
+        color: #000;
+        border-radius: 0;
+        border: 1px solid black;
+    }
+
+    .dataListOrder .btn-add-new.p-3.mb-4.mr-4.rounded-lg.cursor-pointer.flex.items-center.justify-center.text-lg.font-medium.text-base.text-primary.border.border-solid.border-primary span.ml-2.text-base.text-primary {
+        padding: 9px 28px;
+        float: left;
+        margin: 0 !important;
+        border-radius: 5px;
+    }
