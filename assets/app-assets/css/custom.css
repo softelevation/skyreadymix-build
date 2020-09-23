@@ -169,3 +169,19 @@
     .ordersData .action-filters {
         display: none;
     }
+
+    p.date_and_time {
+        width: 125px;
+    }
+
+    table.data-list-view.dataTable thead .sorting:before , table.data-list-view.dataTable thead .sorting:after { display:none;}
+
+    .ordersData .table_paragraph {
+        min-height: 150px;
+        max-height: 150px;
+        padding: 0 0 0 18px;
+    }
+
+    td.dataTables_empty {
+        display: none;
+    }
