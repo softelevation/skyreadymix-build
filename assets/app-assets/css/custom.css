@@ -6,7 +6,6 @@
     height: auto;
     min-height: 68px;
     max-height: 68px;
-    margin-top: 70px;
 }
 
 
@@ -75,7 +74,6 @@
         color: #000;
         border-radius: 0;
         border: 1px solid black;
-        margin-top: 70px;
     }
 
     .dataListOrder .btn-add-new.p-3.mb-4.mr-4.rounded-lg.cursor-pointer.flex.items-center.justify-center.text-lg.font-medium.text-base.text-primary.border.border-solid.border-primary span.ml-2.text-base.text-primary {
@@ -162,4 +160,12 @@
         line-height: 1.5;
         letter-spacing: 0.01rem;
         font-weight: 500;
+    }
+
+    .ordersData .actions.action-btns .btn-group.dropdown.actions-dropodown {
+        box-shadow: 0 0 #fff !important;
+    }
+
+    .ordersData .action-filters {
+        display: none;
     }
