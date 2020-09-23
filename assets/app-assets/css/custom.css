@@ -156,3 +156,10 @@
     html {
         letter-spacing: 0.01rem;
     }
+
+    .main-menu.menu-light .navigation .navigation-header span {
+        color: #999999;
+        line-height: 1.5;
+        letter-spacing: 0.01rem;
+        font-weight: 500;
+    }
