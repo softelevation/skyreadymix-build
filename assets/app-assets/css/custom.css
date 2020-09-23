@@ -108,7 +108,7 @@
     }
 
     .ordersData section#data-list-view tr:hover {
-        transform: translateY(0px);
+        transform: translateY(0);
     }
 
     .data-list-view-header .add-new-data-sidebar .add-new-data .data-items {     
@@ -142,4 +142,17 @@
         font-size: 1.2rem;
         margin-right: 1rem;
         float: left;
+    }
+
+    .ordersData section#data-list-view tbody tr:hover {
+        transform: translateY(0);
+    }
+
+    .ordersData section#data-list-view  tbody tr {
+        transform: translateY(-4px);
+        border-bottom: 10px solid #f8f8f8;
+    }
+
+    html {
+        letter-spacing: 0.01rem;
     }
