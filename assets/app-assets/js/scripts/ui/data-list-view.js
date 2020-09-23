@@ -58,6 +58,15 @@ $(document).ready(function() {
     }, 50);
   });
 
+  $(document).on('click', '.edit-active-orders', function(){
+      $(this).removeClass("btn-secondary")
+      $(".add-new-data").addClass("show")
+      $(".overlay-bg").addClass("show")
+      $("#data-name, #data-price").val("")
+      $("#data-category, #data-status").prop("selectedIndex", 0)
+  });
+  
+
   // init thumb view datatable
   var dataThumbView = $(".data-thumb-view").DataTable({
     responsive: false,
