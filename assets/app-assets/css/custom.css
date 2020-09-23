@@ -107,7 +107,7 @@
         transform: translateY(-4px);     border-bottom: 10px solid #F8F8F8;
     }
 
-    .ordersData section#data-list-view tr:hover {
+    .ordersData section#data-list-view tbody tr:hover {
         transform: translateY(0);
     }
 
