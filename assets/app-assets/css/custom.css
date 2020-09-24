@@ -182,6 +182,10 @@
         padding: 0 0 0 18px;
     }
 
+    button.dt-button.add-new-dissable {
+        display: none;
+    }
+
     td.dataTables_empty {
         display: none;
     }
