@@ -189,3 +189,24 @@
     td.dataTables_empty {
         display: none;
     }
+
+    .i-feather-check {
+        display: contents !important;
+        color: wheat;
+    }
+
+    th.head_fees.sorting {
+        min-width: 120px;
+    }
+
+    th.load_size.sorting {
+        min-width: 65px;
+    }
+
+    th.specs.sorting {
+        min-width: 80px;
+    }
+
+    th.bill_to.sorting {
+        min-width: 85px;
+    }
