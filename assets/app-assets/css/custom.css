@@ -222,3 +222,64 @@
     .ordersData input.parent_checkbox {
         margin-left: 5px;
     }
+
+    .vs-table-text {
+        font-weight: 600;
+    }
+
+    .dataListOrder p.product-name.font-medium.truncate {
+        font-weight: 400 !important;
+    }
+
+    p.product-name.font-medium.truncate b {
+        font-weight: 600 !important;
+        color: #626262;
+    }
+
+    .card-header.d-flex.flex-column.align-items-start.pb-0 {
+        align-items: start;
+    }
+
+    i.feather.icon-shopping-cart.text-danger.font-medium-5 {
+        float: left;
+    }
+
+    .card-content .py-1 {
+        float: left;
+        width: 50%;
+    }
+
+    .chart-info.d-flex.justify-content-between.mb-1 {
+        padding: 0 1.5rem;
+        margin-bottom: 1rem !important;
+    }
+
+    .card-content span.text-bold-600.mx-50 {
+        padding-left: 0.5rem !important;
+    }
+
+    .chart-info.d-flex.justify-content-between.mb-50 {
+        padding: 0 1.5rem 1rem !important;
+    }
+
+    .series-info i.fa.fa-circle.font-small-3.text-primary, .series-info i.fa.fa-circle.font-small-3.text-warning, .series-info i.fa.fa-circle.font-small-3.text-danger {
+        background: #7367F0;
+        width: 11px;
+        height: 12px;
+        border-radius: 50%;
+        float: left;
+        margin-top: 4px;
+        margin-right: 8px;
+    }
+
+    .series-info i.fa.fa-circle.font-small-3.text-danger {
+        background: #EA5455 !important;
+    }
+
+    .series-info i.fa.fa-circle.font-small-3.text-warning {
+        background: #FF9F43 !important;
+    }
+
+
+
+
