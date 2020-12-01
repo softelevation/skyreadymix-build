@@ -89,6 +89,7 @@
     .truck_load_size p {
         margin: 0px;
         text-align: left;
+        font-size: 13px;
     }
 
     .colorsData .card-header  , .driversData .card-header{
@@ -207,8 +208,8 @@
         min-width: 65px;
     }
 
-    th.specs.sorting {
-        min-width: 80px;
+    th.specs {
+        min-width: 102px;
     }
 
     th.bill_to.sorting {
@@ -279,7 +280,68 @@
     .series-info i.fa.fa-circle.font-small-3.text-warning {
         background: #FF9F43 !important;
     }
-
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow {
+        width: 100%;
+        display: flex;
+        height: auto;
+        position: fixed;
+        top: 70px;
+        padding: 16px 20px;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow ul#main-menu-navigation li.nav-item {
+        display: inline-block;
+        padding:0;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow .main-menu-content.ps ul#main-menu-navigation li.navigation-header.active,  .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow .main-menu-content.ps ul#main-menu-navigation li.navigation-header{
+        display: none;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow ul.nav.navbar-nav.flex-row {
+        display: inline-flex;
+        flex-flow: column;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow ul#main-menu-navigation li.nav-item a {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow ul#main-menu-navigation li.nav-item a i-feather {
+        font-size: 14px !important;
+        margin-right: 6px;
+        width: 16px;
+        height: 16px;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow ul#main-menu-navigation li.nav-item a span.badge.badge.badge-warning.badge-pill.float-right.mr-2 {
+        margin-right: 0 !important;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow ul.nav.navbar-nav.flex-row li a {
+        padding: 0;
+        margin: 0;
+    }
+     .main-menu .navbar-header {
+        height: auto;
+    }
+     .app-content.content {
+        margin: 0;
+    }
+     nav.header-navbar.navbar-expand-lg.navbar.navbar-with-menu.floating-nav.navbar-light.navbar-shadow {
+        width: 100%;
+        margin: 0;
+        padding: 0 25px;
+    }
+    html body .content .content-wrapper {
+        margin-top: 10rem;
+    }
+    html body.blank-page .content.app-content .content-wrapper {
+        margin: 0;
+    }
+     .main-menu.menu-fixed.menu-light.menu-accordion.menu-shadow .navbar-header {
+        display: none;
+    }
+    table.data-list-view.dataTable, table.data-thumb-view.dataTable{
+        font-size: 13px;
+    }
+    .main-menu.menu-light .navigation .navigation-header {
+        display: none;
+    }
 
 
 
