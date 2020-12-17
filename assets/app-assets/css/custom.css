@@ -383,7 +383,7 @@
         margin:1.0rem 2.2rem 0;
     }
     .btn[class*='btn-outline-'] {
-        padding: 0px 5px;
+        padding: 12px 27px;
     }
     table.data-list-view.dataTable tbody tr i-feather.ng-star-inserted {
         color: #28C76F !important;
@@ -400,3 +400,30 @@
 	table.data-list-view.dataTable tbody tr td .table_paragraph {
         min-height: 135px;
     }
+    table.data-list-view.dataTable tbody td, table.data-thumb-view.dataTable tbody td{
+        vertical-align: top;
+    }
+    .data-list-view-header .table-responsive .top .action-btns select, .data-list-view-header .table-responsive .top .action-btns button {
+        border-radius: 0.4285rem;
+        padding: 8px 10px;
+        height: 45px;
+        width:120px;
+    }
+    .data-list-view-header .table-responsive .top .action-btns select {
+        font-weight: 500;
+        font-size: 1rem !important;
+    }
+    .data-list-view-header .table-responsive .top .action-btns button i-feather {
+        width: 17px;
+        margin-right: 5px;
+        height: 17px;
+    }
+	
+	div#DataTables_Table_0_paginate {
+		display: none;
+	}
+	
+	.dataTables_paginate.paging_simple_numbers {
+		display: flex;
+		justify-content: center;
+	}
