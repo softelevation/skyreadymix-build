@@ -383,7 +383,7 @@
         margin:1.0rem 2.2rem 0;
     }
     .btn[class*='btn-outline-'] {
-        padding: 12px 27px;
+        padding: 0px 5px;
     }
     table.data-list-view.dataTable tbody tr i-feather.ng-star-inserted {
         color: #28C76F !important;
@@ -419,11 +419,7 @@
         height: 17px;
     }
 	
-	div#DataTables_Table_0_paginate {
-		display: none;
+	button.btn, a.btn {
+		padding: 0.9rem 2rem !important;
 	}
 	
-	.dataTables_paginate.paging_simple_numbers {
-		display: flex;
-		justify-content: center;
-	}

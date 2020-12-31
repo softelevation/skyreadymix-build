@@ -1461,9 +1461,9 @@ button, html [type='button'], [type='reset'], [type='submit'] {
 }
 
 .dropdown-toggle::after {
-  border : none !important;
-  font-family : 'feather';
-  content : '\e842' !important;
+  /* border : none !important; */
+  /* font-family : 'feather'; */
+  /* content : '\e842' !important; */
   position : relative;
   top : 1px;
   right : 0;
