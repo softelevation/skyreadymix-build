@@ -383,7 +383,7 @@
         margin:1.0rem 2.2rem 0;
     }
     .btn[class*='btn-outline-'] {
-        /* padding: 0px 5px; */
+        padding: 0px 5px;
     }
     table.data-list-view.dataTable tbody tr i-feather.ng-star-inserted {
         color: #28C76F !important;
@@ -418,3 +418,8 @@
         margin-right: 5px;
         height: 17px;
     }
+	
+	button.btn, a.btn {
+		padding: 0.9rem 2rem !important;
+	}
+	
