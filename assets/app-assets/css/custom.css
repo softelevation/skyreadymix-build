@@ -385,6 +385,12 @@
     .btn[class*='btn-outline-'] {
         /* padding: 0px 5px; */
     }
+    table.data-list-view.dataTable tbody td .btn[class*='btn-outline-'] {
+        padding: 2px 5px;
+    }
+    table.data-list-view.dataTable tbody tr td .table_paragraph p.date_and_time {
+        margin-bottom: 0;
+    }
     table.data-list-view.dataTable tbody tr i-feather.ng-star-inserted {
         color: #28C76F !important;
         width: 16px;
@@ -392,7 +398,7 @@
         margin-right: 4px;
     }
     .table th, .table td {
-        padding: 1.1rem !important;
+        padding: 0.7rem !important;
     }
     table.data-list-view.dataTable tbody td, .btn.btn-outline-primary.ng-star-inserted {
         margin-top: 8px;
@@ -418,3 +424,52 @@
         margin-right: 5px;
         height: 17px;
     }
+    table.data-list-view.dataTable tbody tr:hover, table.data-thumb-view.dataTable tbody tr:hover{
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-transition: all 0.3s ease;
+    }
+    table.data-list-view.dataTable, table.data-thumb-view.dataTable{
+        border-spacing: 0px 0.9rem;
+    }
+    .horizontal-menu .header-navbar.navbar-horizontal ul#main-menu-navigation > li > .dropdown-menu a:hover{
+        padding-left: 25px !important;
+        background-color: #7367f0;
+        color: #fff;
+    }
+    .horizontal-menu .header-navbar.navbar-horizontal ul#main-menu-navigation > li > .dropdown-menu li{
+        padding: 0;
+    }
+    .horizontal-menu .header-navbar.navbar-horizontal ul#main-menu-navigation > li > .dropdown-menu a{
+        padding: 1.1rem 1.428rem;
+    }
+    .horizontal-menu .header-navbar.navbar-horizontal ul#main-menu-navigation > li > .dropdown-menu {
+        padding: 0;
+    }
+    .table-hover-animation tbody tr:hover{
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    .card{
+        box-shadow: 0 4px 25px 0 rgb(138 138 138 / 6%);
+    }
+	
+	div#DataTables_Table_0_paginate {
+		display: none;
+	}
+	div#DataTables_Table_0_paginate1 {
+		display: flex;
+		justify-content: center;
+	}
+	li.current-order-page {
+    display: flex;
+    align-items: center;
+    background: #7367f0;
+    color: white;
+    width: 25px;
+    /* text-align: center; */
+    justify-content: center;
+    border-radius: 10px;
+}
