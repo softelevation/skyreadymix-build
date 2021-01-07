@@ -473,3 +473,175 @@
     justify-content: center;
     border-radius: 10px;
 }
+.card-custom .form-group span {
+    font-weight: 500;
+    margin-top: 3px;
+    font-size: 1.1rem;
+}
+button.custom-zone-btn, .zip-btn-group button.xip-btn-col {
+    border-radius: 0.4285rem;
+    padding: 8px 10px;
+    height: 40px;
+    min-width: 100px;
+    border: 1px solid #7367F0;
+    background-color: transparent;
+    color: #7367F0;
+    margin: 0 10px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14);
+}
+.avalible-zip-code select.form-control.mult-zip {
+    padding: 0;
+    background-image: none;
+}
+.avalible-zip-code select.form-control.mult-zip:focus {
+    box-shadow: none;
+}
+.zip-btn-group button.xip-btn-col {
+    min-width: 85px;
+    width: 100%;
+    margin: 14px 0;
+    padding: 0;
+}
+button.custom-zone-btn.cancel-btn {
+    width: auto;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 0.4285rem;
+    margin: 0;
+    box-shadow: none;
+    min-width: 90px;
+}
+button.custom-zone-btn.cancel-btn:hover {
+    box-shadow: 0 8px 25px -8px #d2d2d2;
+}
+button.btn.btn-outline-primary.custom-zone-btn.waves-effect.waves-light i-feather {
+    width: 18px;
+}
+button.custom-zone-btn:hover, .zip-btn-group button.xip-btn-col:hover, button.custom-zone-btn.cancel-btn:hover {
+    background-color: rgba(115, 103, 240, 0.08);
+    color: #7367F0;
+}
+.avalible-zip-code {
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    background: #fff;
+    padding: 12px;
+    margin-top: 10px;
+    min-height: 350px;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.avalible-zip-code p {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+    color: #000;
+}
+.zip-btn-group {
+    flex-flow: column;
+    display: flex;
+    margin: 100px 0;
+}
+/* .zip-btn-group button.xip-btn-col {
+    width: 110px;
+    margin: 15px 0;
+}
+.zip-btn-group button.xip-btn-col {
+    min-width: 80px;
+    width: 100%;
+    margin: 12px auto;
+    background: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    height: 32px;
+} */
+i-feather.cstm-ic-col {
+    width: 10px;
+    height: 21px;
+}
+i-feather.cstm-ic-col.rotaite {
+    transform: rotate(180deg);
+}
+
+
+i-feather.cstm-ic-col svg.feather.feather-play {
+    fill: #7367F0;
+    color: #7367F0;
+}
+h4.modal-title.cstm_h {
+    color: #636363 !important;
+}
+.modal-body.cstm-popup form .form-group {
+    display: flex;
+    flex-flow: column;
+}
+.modal-body.cstm-popup form .form-group input {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    height: calc(1.25em + 1.4rem + 1px);
+    padding: 0.6rem 0.7rem;
+    font-size: 0.96rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #4E5154;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.modal-body.cstm-popup form .form-group input:focus {
+    color: #4E5154;
+    background-color: #FFFFFF;
+    border-color: #7367F0;
+    outline: 0;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.btnpopupGroup button.customPopupBtn {
+    min-width: 80px;
+    background: #fff;
+    border: 1px solid #b2b2b2;
+    margin-left: 18px;
+    height: 32px;
+    border-radius: 2px;
+    color: #766bf0;
+    font-weight: 500;
+}
+.btnpopupGroup button.customPopupBtn.saveBtn {
+    border: 0;
+    background: #00a219;
+    color: #fff;
+}
+.btnpopupGroup {
+    margin-top: 20px;
+}
+input:focus {
+    outline: 0;
+}
+div#addzone .modal-header, .modal-body.cstm-popup {
+    padding: 20px 25px;
+}
+div#addzone .modal-header {
+    padding-bottom: 9px !important;
+}
+
+select.mult-zip {
+    border: 0;
+    padding: 0;
+    min-height: 320px;
+    overflow: auto;
+    box-shadow: none;
+}
+
+select.mult-zip option {
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+    color: #000;
+    padding: 6px 8px;
+}
+.btnpopupGroup button.btn.btn-primary {
+    min-width: 100px;
+}
