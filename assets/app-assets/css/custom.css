@@ -245,7 +245,9 @@
     .card-header.d-flex.flex-column.align-items-start.pb-0 {
         align-items: start;
     }
-
+    .card .card-header.d-flex.flex-column.align-items-start {
+        padding: 1.5rem !important;
+    }
     i.feather.icon-shopping-cart.text-danger.font-medium-5 {
         float: left;
     }
@@ -651,3 +653,41 @@ select.mult-zip option {
 .modal .modal-header .close {
     margin: 0px;
 }
+
+    table.data-list-view.dataTable tbody tr.tbody-tr-table {
+        width: 100%;
+        overflow: auto;
+        display: inline-flex;
+    }
+    table.data-list-view.dataTable tbody tr.table-data-tr-col{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    table.data-list-view.dataTable tbody tr.tbody-tr-table, table.dataTable thead tr.thead-tr-name-col, table.data-list-view.dataTable tbody tr.table-data-tr-col{
+        max-width: 1230px;
+        width: 100%;
+    }
+    table.dataTable thead tr.thead-tr-name-col{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    table.data-list-view.dataTable thead th, table.data-list-view.dataTable tbody td{
+        min-width: 95px;
+    }
+    table.data-list-view.dataTable tbody tr.tbody-tr-table td {
+        min-width: auto;
+    }
+    table.dataTable thead tr.thead-tr-name-col th.checkox-input.sorting_disabled, table.data-list-view.dataTable tbody tr.table-data-tr-col td.checkox-input {
+        min-width: 30px;
+        width: 30px !important;
+        display: flex;
+        align-items: center;
+    }
+    th.call-to-action-btn, td.call-to-action-btn {
+        min-width: 50px !important;
+        width: 50px !important;
+    }
+    @media screen and (max-width: 1269px) {
+    }

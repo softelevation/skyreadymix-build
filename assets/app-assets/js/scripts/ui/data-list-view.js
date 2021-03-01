@@ -126,12 +126,20 @@ $(document).ready(function() {
   }
 
   // Close sidebar
-  $(".hide-data-sidebar, .cancel-data-btn, .overlay-bg").on("click", function() {
-    $(".add-new-data").removeClass("show")
-    $(".overlay-bg").removeClass("show")
-    $("#data-name, #data-price").val("")
-    $("#data-category, #data-status").prop("selectedIndex", 0)
-  })
+  // $(".hide-data-sidebar, .cancel-data-btn, .overlay-bg").on("click", function() {
+    // $(".add-new-data").removeClass("show")
+    // $(".overlay-bg").removeClass("show")
+    // $("#data-name, #data-price").val("")
+    // $("#data-category, #data-status").prop("selectedIndex", 0)
+  // })
+  
+  $(".add-new-data .order-form").on("click", function() {
+		$("#data-name, #data-price").val("")
+		$("#data-category, #data-status").prop("selectedIndex", 0)
+		$(".add-new-data").removeClass("show")
+		$(".overlay-bg").removeClass("show")
+   });
+   
 
   // On Edit
   $('.action-edit').on("click",function(e){
