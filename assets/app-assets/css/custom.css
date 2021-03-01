@@ -690,4 +690,20 @@ select.mult-zip option {
         width: 50px !important;
     }
     @media screen and (max-width: 1269px) {
+        table.data-list-view.dataTable tbody tr.tbody-tr-table, table.dataTable thead tr.thead-tr-name-col, table.data-list-view.dataTable tbody tr.table-data-tr-col{
+            max-width: 1230px;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1270px) {
+        table.data-list-view.dataTable tbody tr.tbody-tr-table, table.dataTable thead tr.thead-tr-name-col, table.data-list-view.dataTable tbody tr.table-data-tr-col{
+            max-width: 1530px;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 1500px) {
+        table.data-list-view.dataTable tbody tr.tbody-tr-table, table.dataTable thead tr.thead-tr-name-col, table.data-list-view.dataTable tbody tr.table-data-tr-col{
+            max-width: 1700px;
+            width: 100%;
+        }
     }
