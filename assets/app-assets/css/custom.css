@@ -689,6 +689,36 @@ select.mult-zip option {
         min-width: 50px !important;
         width: 50px !important;
     }
+    table.dataTable tbody tr.table-data-tr-col {
+        margin-bottom: 0px !important;
+        border-radius: 0.5rem 0.5rem 0 0 !important;
+    }
+    table.dataTable tbody tr.tbody-tr-table {
+        border-radius: 0 0 0.5rem 0.5rem !important;
+    }
+    table.data-list-view.dataTable, table.data-thumb-view.dataTable{
+        border-spacing: 0 1.5rem;
+    }
+    table.data-list-view.dataTable, table.data-thumb-view.dataTable{
+        padding: 0;
+    }
+    table.data-list-view.dataTable tbody tr.table-data-tr-col:hover {
+        box-shadow:none;
+    }
+    table.data-list-view.dataTable tbody tr:hover, table.data-thumb-view.dataTable tbody tr:hover {
+        -webkit-transform: none;
+        -ms-transform: inherit;
+        transform: none;
+        -webkit-transition: none;
+    }
+    li.dropdown.nav-item.submenu-dropright ul.dropdown-menu {
+        left: 215px;
+        top: 0 !important;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 7%);
+    }
+    table.data-list-view.dataTable tbody tr.tbody-tr-table{
+        box-shadow: none;
+    }
     @media screen and (max-width: 1269px) {
         table.data-list-view.dataTable tbody tr.tbody-tr-table, table.dataTable thead tr.thead-tr-name-col, table.data-list-view.dataTable tbody tr.table-data-tr-col{
             max-width: 1230px;
